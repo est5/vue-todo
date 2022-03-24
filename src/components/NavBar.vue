@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 <template>
   <nav class="navbar">
-    <h1 class="text-slate-200 font-semibold text-5xl shadow-sm">TODO!</h1>
+    <h1 class="text-slate-200 font-semibold text-5xl">TODO!</h1>
     <h2 class="text-1xl font-mono text-slate-200">
       <a
         href="https://github.com/est5/vue-todo"
@@ -14,6 +14,6 @@
 
 <style>
 .navbar {
-  @apply flex items-center justify-between flex-wrap bg-red-800 p-6 shadow-sm shadow-rose-500;
+  @apply flex items-center justify-between flex-wrap bg-red-800 p-6 shadow-md shadow-stone-100 rounded-sm;
 }
 </style>
